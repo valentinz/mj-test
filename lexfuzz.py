@@ -169,4 +169,4 @@ if __name__ == '__main__':
 
     tokens = get_tokens(length)
     print(''.join([t[1] for t in _pad_tokens(tokens, comments=comments, pad_operators=pad_operators)]), file=sys.stdout)
-    print('\n'.join([lextest_str(t) for t in tokens] + ['EOF']) + '\n', file=sys.stderr)
+    print('\n'.join([lextest_str(t) for t in tokens] + ['EOF']), file=sys.stderr)
