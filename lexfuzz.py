@@ -9,6 +9,8 @@ Usage: lexfuzz.py [LENGTH | --aggressive]
                 token stream)
 """
 
+from __future__ import print_function
+
 from enum import Enum
 import random
 import re
