@@ -34,7 +34,5 @@ class Oo {
         this[15] = 1;
         
         (15.callme().callme().callme().callme().callme(callme());
-
-        /* at this point my fantasy has expired (please don't copy this comment */
     }
 }
