@@ -87,7 +87,7 @@ class Parameters {
         boolean b = three_four_five[0] && three_four_five[1];
         boolean c = !three_four_five[3];
 
-        boolean d = (a && b) || (c && !b) || (~(a || c));
+        boolean d = (a && b) || (c && !b) || (-(a || c));
 
         boolean b_true = true;
         boolean b_false = false;
