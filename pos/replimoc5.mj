@@ -14,7 +14,7 @@ class Oo {
         /* the first one is semantically correct */
         identifier.m1().m2(42).m3(42,24).identifier[24+44].identifier[x][y][zZ];
         true.m1().m2(42).m3(42,24).identifier[a < b + c].identifier[(((null)))][false][true || false < false];
-        5.m1().m2(42).m3(42,24).identifier[a+b%c%12345].identifier[new int[x]][new integer(x)][1];
+        5.m1().m2(42).m3(42,24).identifier[a+b%c%12345].identifier[new int[x]][new integer()][1];
 
         new identifier().ident[this[this]].ident;
 
