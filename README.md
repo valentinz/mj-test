@@ -11,3 +11,4 @@ Directory layout
 
 List of tests/tools (please keep up to date):
 * `lexfuzz.py`: lexer fuzzer, prints string to be lexed to stdout, expected result (in --lextest format) to stderr.
+* `parsefuzz.scala`: parser fuzzer for positive syntactic test cases, run as `scala parsefuzz.scala`.
