@@ -1,0 +1,12 @@
+class A {
+  int a = foo();
+  int b = 3;
+
+  int foo() {
+    return bar();
+  }
+
+  int bar() {
+    return 0;
+  }
+}
