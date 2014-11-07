@@ -7,9 +7,10 @@ class Expressions {
     public static void main ( String[] args)
     {
         int a; int b; int c; int d;
+        boolean z = true;
 
         /* unary expression */
-        a = a; a = !a; a = -a;
+        a = a; z = !z; a = -a;
 
         /* MultiplicativeExpression */
         a = a * b; a = a / c; a = a % d;
