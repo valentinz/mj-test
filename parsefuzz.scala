@@ -103,7 +103,7 @@ lazy val ReturnStatement: Node = "return " ++ Expression.? ++ ";\n    "
 lazy val Expression: Node =
   Ind(Expression) ++ " " ++ OneOf(List("!=", "*", "+", "-", "/", "<=", "<", "==", "=", ">=", ">", "%", "&&", "||")) ++ " " ++ Ind(Expression) |
   UnaryExpression
-lazy val UnaryExpression: Node = PostfixExpression | ("!" | "-") ++ Ind(UnaryExpression)
+lazy val UnaryExpression: Node = PostfixExpression | ("!" | "- ") ++ Ind(UnaryExpression)
 lazy val PostfixExpression: Node = PrimaryExpression ++ PostfixOp.*()
 lazy val PostfixOp: Node = MethodInvocation | FieldAccess | ArrayAccess
 lazy val MethodInvocation: Node = "." ++ IDENT ++ "(" ++ Arguments ++ ")"
