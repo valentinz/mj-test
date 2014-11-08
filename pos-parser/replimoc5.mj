@@ -33,6 +33,6 @@ class Oo {
 
         this[15] = 1;
         
-        (15.callme().callme().callme().callme().callme(callme());
+        (15.callme().callme().callme().callme().callme(callme()));
     }
 }
