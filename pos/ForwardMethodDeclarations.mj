@@ -1,12 +1,9 @@
 class A {
-  int a = foo();
-  int b = 3;
-
-  int foo() {
+  public int foo() {
     return bar();
   }
 
-  int bar() {
+  public int bar() {
     return 0;
   }
 }
