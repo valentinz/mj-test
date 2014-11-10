@@ -1,2 +1,2 @@
 class A {
-  public int a = 5;
+  public int a;
