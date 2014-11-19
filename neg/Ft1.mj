@@ -1,0 +1,17 @@
+class NestedNaming {
+	public int foo;
+	
+	public void foo(int foo) {
+		this.fo = foo; /* fo instead of foo */
+	}
+}
+
+class AnotherProblem {
+	public void foo(int foo) {
+		int i = bar; /* bar not declared */
+	}
+	
+	public static void main(String[] args) {
+		Another problem = new AnotherProblem(); /* Another is not a type */
+	}
+}

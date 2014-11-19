@@ -1,0 +1,25 @@
+class Typed {
+	public int integer;
+	public void foo(int x) {
+		integer = bar(); /* return type of bar is void */
+	}
+	
+	public void bar() {
+		this.integer = false; /* type of integer... is integer :-) */
+	}
+}
+
+class Two {
+	public Typed x;
+	
+	public void foo() {
+		x = new Typed();
+		x.integer = 42;
+		x.foo(21);		
+		{
+			int x = 0;
+			x.bar(); /* x of type int */
+		}
+		x.bar();
+	}
+}
