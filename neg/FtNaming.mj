@@ -1,0 +1,19 @@
+class NestedNaming {
+	public int foo;
+	
+	public void foo(int foo) {
+		this.foo = foo;
+	}
+}
+
+class AnotherProblem {
+	public void foo(int foo) {
+		int i = foo;
+		bool i = false; /* i already exists */
+	}
+	
+	public static void main(String[] args) {
+		NestedNaming foo = new AnotherProblem(); /* int is a primitive type */
+		System.out.println(foo); /* only prints integers */
+	}
+}

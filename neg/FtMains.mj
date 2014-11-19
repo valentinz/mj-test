@@ -1,0 +1,11 @@
+class SuperMain {
+	public static void main(String[] args) {
+	
+	}
+}
+
+class AnotherMain {
+	public static void main(String[] args) {
+	
+	}
+}

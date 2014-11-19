@@ -1,0 +1,12 @@
+class SuperMain {
+	public static void main(String[] args) {
+	
+	}
+}
+
+class MainCaller {
+	public void foo() {
+		SuperMain superMainer = new SuperMain();
+		superMainer.main(null);
+	}
+}
