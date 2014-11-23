@@ -1,0 +1,34 @@
+class Main
+{
+    public void m(){ this.m();}
+
+    /* correct - args can be called whatever */
+    public static void main(String[] vargs) {
+
+    }
+}
+
+class MultiScope {
+	
+    public void correctMultiScope() {
+        int x; 
+        {
+            int x; /* error - you can't redefine scope in java*/
+            {
+                boolean x; /* error - you can't redefine scope in java*/
+                {
+                    int x; /* error - you can't redefine scope in java*/
+                }
+            }
+        }
+    }
+
+}
+
+class MethodsFields
+{
+    public int m;
+    public void m() {} /* this is not an error */
+
+    public void m2() { boolean m; } /* this is also not an error */
+}
