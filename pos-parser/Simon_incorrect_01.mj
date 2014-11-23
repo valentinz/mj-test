@@ -1,0 +1,11 @@
+class a {
+	public static void main(String[] a) {}
+	/*public void a1;
+	public ASJDHASD a1; */
+	public void x() {}
+	public void x() {} 
+	public void x(void foo, int bar) {}
+	public void x(void foo, alisdalksdjalksdj bar) {}
+}
+
+/*class a {}  double class a */
