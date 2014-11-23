@@ -1,7 +1,9 @@
 class NestedNaming {
 	public int foo;
-	
+
 	public void foo(int foo) {
 		this.foo = foo;
 	}
+
+  public static void main(String[] args) { }
 }

@@ -7,6 +7,8 @@ class Typed {
 	public void bar() {
 		this.integer = 0;
 	}
+
+  public static void main(String[] args) {}
 }
 
 class Two {
@@ -19,7 +21,7 @@ class Two {
 		{
 			int x = 0;
 			{
-				bool x = true;
+				boolean x = true;
 			}
 		}
 		x.bar();

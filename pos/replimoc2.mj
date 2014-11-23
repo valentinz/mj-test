@@ -19,18 +19,18 @@ class Expressions {
         int x = a + (a * b);  x = b - c * d;
 
         /* RelationalExpression */
-        boolean b1 = a + b = c + d * d;
+        boolean b1 = a + b == c + d * d;
         boolean b2 = a + b <= c + d * d;
         boolean b3 = a + b % d > c + d * d;
         boolean b4 = a + b >= c + d * d;
 
         /* EqualityExpression */
-        a != b; a != (b < c); a * b * c - d * d < 125 == true;
+        a != b; z != (b < c); (a * b * c - d * d) < 125 == true;
 
         /* LogicalAnd */
-        c && d; a+b && c + d; a * b % d && c + d;
+        z && z;
 
         /* LogicalOr */
-        a ||b; a || c && d; a+b || c + d; a * b % d || c + d && c - d;
+        z || z;
     }
 }
