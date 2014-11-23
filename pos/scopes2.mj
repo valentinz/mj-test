@@ -1,0 +1,6 @@
+class Test {
+        public static void main(String[] args) {
+                /* Look in the JLS to see why this is correct MiniJava. */
+                int x = x;
+        }
+}
