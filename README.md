@@ -6,7 +6,7 @@ Directory layout
  - Place *.mj files which are supposed to parse successfully, but not compile, in pos-parser/
  - Place *.mj files which are not supposed to compile in neg/
  - Place *.mj files which are intended to be compiled and executed,
-   and print values to stdout (via `System.out.println`).
+   and print values to stdout (via `System.out.println`), in run/.
    Place a *.check file with the same name as the *.mj file to specify the expected output.
 
 List of tests/tools (please keep up to date):
