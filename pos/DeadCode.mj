@@ -4,9 +4,9 @@
 class A {
   public static void main(String[] args) {
     if (false)
-      System.out.println(3735929054);
+      System.out.println(2147483647);
     while (false)
-      System.out.println(3735929054);
+      System.out.println(-2147483648);
 
     boolean a = false;
     boolean b = true;

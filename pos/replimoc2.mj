@@ -25,12 +25,12 @@ class Expressions {
         boolean b4 = a + b >= c + d * d;
 
         /* EqualityExpression */
-        a != b; z != (b < c); (a * b * c - d * d) < 125 == true;
+        z = a != b; z = z != (b < c); z = (a * b * c - d * d) < 125 == true;
 
         /* LogicalAnd */
-        z && z;
+        z = z && z;
 
         /* LogicalOr */
-        z || z;
+        z = z || z;
     }
 }
