@@ -21,7 +21,7 @@ class Two {
 		{
 			int x = 0;
 			{
-				boolean x = true;
+				boolean x2 = true;
 			}
 		}
 		x.bar();
