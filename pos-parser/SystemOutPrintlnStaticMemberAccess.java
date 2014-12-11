@@ -1,4 +1,4 @@
-/* Should produce no semantic errors. */
+/* Should produce semantic errors. System.out is not a static member. */
 class A {
 	public static void main(String[] args) {
 	System.out.println(0);
