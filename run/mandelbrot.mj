@@ -108,7 +108,7 @@ class Complex {
 
 class Main {
   public static void main(String[] args) {
-    int maxiter = 1000;
+    int maxiter = 100;
     Complex c = new Complex().init(new Fixed(), new Fixed().init(-1000000));
 
     while (c.im.val < 1000000) {
