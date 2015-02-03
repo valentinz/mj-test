@@ -1,0 +1,13 @@
+class Test {
+	public int x;
+
+	public static void main(String[] args) {
+		Test test = new Test();
+		test.x = 1;
+		test.test();
+	}
+
+	public void test() {
+		System.out.println(1 + (x + 0));
+	}
+}

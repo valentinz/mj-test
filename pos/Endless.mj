@@ -1,0 +1,14 @@
+class Endless {
+	public static void main(String[] args) {
+		new Endless().dont_stop_me_now();
+	}
+
+	public void dont_stop_me_now() {
+		int i;
+
+		i = 0;
+		while(true) {
+			i = i + 1;
+		}
+	}
+}
